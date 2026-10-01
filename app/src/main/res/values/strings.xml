@@ -1,3 +1,131 @@
 <resources>
     <string name="app_name">BetterSEQTA Teach Android</string>
+    <string name="auth_placeholder_title">Sign in to continue</string>
+    <string name="auth_placeholder_subtitle">SEQTA login will appear here when auth is wired to this shell.</string>
+
+    <string name="notification_channel_messages">Messages</string>
+    <string name="notification_new_message_title">New message</string>
+    <string name="notification_new_message_body">You have a new Direqt message</string>
+
+    <string name="tab_home">Home</string>
+    <string name="tab_timetable">Timetable</string>
+    <string name="tab_notices">Notices</string>
+    <string name="tab_messages">Messages</string>
+    <string name="tab_settings">Settings</string>
+
+    <string name="placeholder_home_subtitle">Dashboard loads here after sign-in.</string>
+    <string name="placeholder_coming_soon">Coming soon</string>
+    <string name="placeholder_messages_list">Message list loads in a later phase.</string>
+    <string name="placeholder_message_detail_title">Message %1$d</string>
+
+    <string name="home_todays_lessons">Today\'s Lessons</string>
+    <string name="home_direqt_messages">Direqt Messages</string>
+    <string name="home_see_all">See all</string>
+    <string name="home_loading_lessons">Fetching today\'s classes…</string>
+    <string name="home_loading_messages">Opening Direqt…</string>
+    <string name="home_no_lessons_title">No lessons today</string>
+    <string name="home_no_lessons_subtitle">Check the timetable for other days</string>
+    <string name="home_no_messages_title">No messages</string>
+    <string name="home_no_messages_subtitle">Your Direqt messages will appear here</string>
+
+    <string name="home_greeting_morning">Good morning</string>
+    <string name="home_greeting_afternoon">Good afternoon</string>
+    <string name="home_greeting_evening">Good evening</string>
+    <string name="home_stat_messages">%1$d messages</string>
+    <string name="home_stat_to_mark">%1$d to mark</string>
+    <string name="home_stat_lessons">%1$d lessons</string>
+    <string name="home_assessments_title">Assessments</string>
+    <string name="home_assessments_empty_title">No assessments</string>
+    <string name="home_assessments_empty_subtitle">Assessment overview for your classes will appear here.</string>
+    <string name="home_assessments_subject_summary">%1$d upcoming · %2$d past</string>
+    <string name="home_assessments_upcoming">Upcoming</string>
+    <string name="home_assessments_past">Past</string>
+    <string name="home_assessments_past_due">Past due</string>
+    <string name="home_assessments_due">Due %1$s</string>
+    <string name="home_assessments_submitted">%1$d/%2$d submitted</string>
+    <string name="home_assessments_marked">%1$d/%2$d marked</string>
+
+    <string name="drawer_open">Open menu</string>
+    <string name="drawer_assessments">Course assessments</string>
+    <string name="course_assessments_filter_all">All</string>
+    <string name="course_assessments_empty_filtered">Nothing in this filter for your classes.</string>
+
+    <string name="error_prefix">Error: %1$s</string>
+    <string name="unknown_sender">Unknown</string>
+    <string name="no_subject">No subject</string>
+
+    <string name="timetable_loading">Loading your timetable…</string>
+    <string name="timetable_empty_title">No lessons</string>
+    <string name="timetable_empty">No lessons found for this day.</string>
+    <string name="timetable_error_title">Couldn\'t load timetable</string>
+    <string name="pick_date">Pick date</string>
+    <string name="previous_day">Previous day</string>
+    <string name="next_day">Next day</string>
+
+    <string name="back">Back</string>
+    <string name="save">Save</string>
+
+    <string name="attendance_title">Attendance</string>
+    <string name="attendance_loading">Opening class roll…</string>
+    <string name="attendance_no_students">No students in this class.</string>
+    <string name="attendance_not_marked">Not marked</string>
+    <string name="attendance_yes">Yes</string>
+    <string name="attendance_no">No</string>
+    <string name="attendance_clear">Clear attendance</string>
+    <string name="attendance_save_failed">Save failed</string>
+    <string name="attendance_view_stats">View attendance stats</string>
+    <string name="attendance_view_stats_subtitle">See percentages by student</string>
+    <string name="attendance_stats_title">Stats</string>
+    <string name="attendance_present_label">present</string>
+    <string name="attendance_rate_label">attendance</string>
+    <string name="attendance_summary_line">%1$d of %2$d students marked present</string>
+    <string name="attendance_by_student">By student</string>
+    <string name="attendance_cards_done">You\'ve marked all students. Switch to List in Settings to review or save.</string>
+    <string name="attendance_card_progress">%1$d of %2$d</string>
+    <string name="attendance_previous">Previous</string>
+    <string name="attendance_skip">Skip</string>
+    <string name="attendance_swipe_hint">Swipe to mark</string>
+
+    <string name="compose_title_new">New message</string>
+    <string name="compose_title_reply">Reply</string>
+    <string name="compose_title_reply_all">Reply all</string>
+    <string name="compose_title_forward">Forward</string>
+    <string name="compose_send">Send</string>
+    <string name="compose_discard">Close compose</string>
+    <string name="compose_ok">OK</string>
+    <string name="compose_error_title">Couldn\'t send</string>
+    <string name="compose_to_label">To</string>
+    <string name="compose_add_recipients">Add</string>
+    <string name="compose_remove_recipient">Remove recipient</string>
+    <string name="compose_recipients_hint">Tap Add to choose staff, students, or contacts.</string>
+    <string name="compose_subject_label">Subject</string>
+    <string name="compose_subject_hint">Subject line</string>
+    <string name="compose_bcc_title">Blind copy</string>
+    <string name="compose_bcc_subtitle">Hide recipients from each other</string>
+    <string name="compose_format_label">Format</string>
+    <string name="compose_format_bold">Bold</string>
+    <string name="compose_format_italic">Italic</string>
+    <string name="compose_format_underline">Underline</string>
+    <string name="compose_format_heading1">Heading 1</string>
+    <string name="compose_format_heading2">Heading 2</string>
+    <string name="compose_format_heading3">Heading 3</string>
+    <string name="compose_recipient_sheet_title">Recipients</string>
+    <string name="compose_search_recipients">Search people</string>
+    <string name="compose_done">Done</string>
+
+    <string name="marksbook_title">Marksbook</string>
+    <string name="marksbook_loading">Loading marks…</string>
+    <string name="marksbook_save">Save marks</string>
+    <string name="marksbook_save_success">Marks saved</string>
+    <string name="marksbook_save_failed">Couldn\'t save marks</string>
+    <string name="marksbook_stat_students">%1$d students</string>
+    <string name="marksbook_stat_marked">%1$d / %2$d marked</string>
+    <string name="marksbook_stat_average">Avg %1$s</string>
+    <string name="marksbook_stat_weight">Weight %1$d</string>
+    <string name="marksbook_criterion_target">%1$s · out of %2$d</string>
+    <string name="marksbook_discard_title">Discard changes?</string>
+    <string name="marksbook_discard_message">You have unsaved marks. Leave without saving?</string>
+    <string name="marksbook_discard_confirm">Leave</string>
+    <string name="marksbook_keep_editing">Keep editing</string>
+    <string name="home_assessments_open_marksbook">Open marksbook</string>
 </resources>
